@@ -1,4 +1,4 @@
-  {##################}
+{##################}
   {### POST BLOCK ###}
   {##################}
   <article itemscope itemtype="http://schema.org/Article" class="post-block {% if is_index %}home{% endif %}" lang="{{ post.lang or post.language or config.language }}">
@@ -41,12 +41,17 @@
         </{%- if theme.seo %}h2{% else %}h1{%- endif %}>
 
         <div class="post-meta">
+          {% if post.top %}
+            <i class="fa fa-thumb-tack"></i>
+            <font color=7D26CD>置顶</font>
+            <span class="post-meta-divider">|</span>
+          {% endif %}
 
           {%- set date_diff = date(post.date) != date(post.updated) %}
           {%- set time_diff = time(post.date) != time(post.updated) %}
           {%- set datetime_diff = date_diff or time_diff %}
 
-          {%- if theme.post_meta.created_at %}
+          {%- if theme.post_meta.created_at and not post.top %}
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>

@@ -12,6 +12,7 @@ menu:
   about: 关于
   search: 搜索
   schedule: 日程表
+  resume: 个人简历
   sitemap: 站点地图
   commonweal: 公益 404
 sidebar:
@@ -30,6 +31,8 @@ post:
   sticky: 置顶
   views: 阅读次数
   related_posts: 相关文章
+  comments:
+    valine: 评论次数 
   copyright:
     author: 本文作者
     link: 本文链接
