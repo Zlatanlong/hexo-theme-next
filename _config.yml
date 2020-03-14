@@ -208,7 +208,7 @@ links_settings:
 links:
   leflacon: https://leflacon.github.io/
   BobBoss: https://bobboss.github.io/
-  大二暑期: http://94k0pl.coding-pages.com
+  大二暑期: http://zlatanlong.gitee.io/qi_front_end/#/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -366,14 +366,14 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: solarized
   # Add copy button on codeblock
   copy_button:
     enable: true
     # Show text copy result.
     show_result: true
     # Available values: default | flat | mac
-    style: mac
+    style: default
 
 back2top:
   enable: true
