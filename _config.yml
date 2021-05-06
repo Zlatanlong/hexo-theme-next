@@ -208,8 +208,7 @@ links_settings:
 links:
   leflacon: https://leflacon.github.io/
   BobBoss: https://bobboss.github.io/
-  大二暑期: http://zlatanlong.gitee.io/qi_front_end/#/
-
+  lzdcl: http://optimisticat.xyz/user?userId=lzdcl
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
 toc:
@@ -366,14 +365,14 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: solarized
+  highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
     enable: true
     # Show text copy result.
     show_result: true
     # Available values: default | flat | mac
-    style: default
+    style: mac
 
 back2top:
   enable: true
@@ -420,7 +419,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
   host:
@@ -433,30 +432,30 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
-    size:
+    family: Josefin Sans
+    size: 1
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
-    size:
+    family: Lobster
+    size: 1.5
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family:
-    size:
+    family: Josefin Sans
+    size: 
 
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family:
+    family: Josefin Sans
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: 
 
 
 # ---------------------------------------------------------------
